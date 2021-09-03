@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "0a3fd00f-dee3-4ddb-925a-2badf0e94bd2",
+		"name": "mock-apps-sit",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get greeting",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8081/v1/greeting",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8081",
+					"path": [
+						"v1",
+						"greeting"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get external service",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8081/v1/external",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8081",
+					"path": [
+						"v1",
+						"external"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
